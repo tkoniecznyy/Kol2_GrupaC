@@ -1,5 +1,6 @@
 import {BlogComponent} from './components/blog/blog.component';
-import {Routes} from '@angular/router';
+import {RouterModule, Routes} from '@angular/router';
+import {NgModule} from '@angular/core';
 // @ts-ignore
 const routes: Routes = [
   {
@@ -7,3 +8,9 @@ const routes: Routes = [
     component: BlogComponent,
   }
 ];
+
+@NgModule({
+  imports: [RouterModule.forRoot(routes)],
+  exports: [RouterModule]
+})
+export class AppRoutingModule {}

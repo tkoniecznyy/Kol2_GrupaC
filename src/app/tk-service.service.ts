@@ -13,11 +13,11 @@ export class TKServiceService {
 }
 
 getAll() {
-  return this.http.get(this.url + '/api/blog/posts/');
+  return this.http.get(this.url + '/api/order/items/');
 }
 
 getById(id) {
-  return this.http.get(this.url + '/api/blog/posts/' + id);
+  return this.http.get(this.url + '/api/order/items/' + id);
 }
 
 }
