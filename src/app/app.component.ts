@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'TK-blog-kol2';
+  title = 'TK-shop-poprawa';
 }

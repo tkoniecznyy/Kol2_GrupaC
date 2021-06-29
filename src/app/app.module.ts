@@ -17,7 +17,7 @@ import { AppRoutingModule } from './app-routing.module';
     BlogComponent,
     BlogItemComponent,
     BlogItemImageComponent,
-    AppComponent
+    AppComponent,
   ],
   imports: [
       HttpClientModule,
